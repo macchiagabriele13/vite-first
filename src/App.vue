@@ -3,13 +3,15 @@
 // #1 importo qui eventuali componenti
 
 import AppTitle from "../src/components/AppTitle.vue";
+import AppHero from "./components/AppHero.vue";
 
 
 // #2 definisco una proprietá components per registrare i componenti importati al punto 1
 export default {
 
     components: {
-        AppTitle
+        AppTitle,
+        AppHero
     }
 
 }
@@ -19,6 +21,7 @@ export default {
 <template>
 
     <AppTitle />
+    <AppHero />
 
 </template>
 
